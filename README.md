@@ -27,7 +27,7 @@ Run it with node.js.
 node main.js
 ```
 
-## 如何使用本演算法？ (How to us it ?)  
+## 如何使用本演算法？ (How to use it ?)  
 
 * constructor(currentPrice, tradeParam), 類別建構式，建立一個網格交易單  
  * currentPrice: 開單的現價  
