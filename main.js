@@ -13,7 +13,12 @@ const { GridTrading } = require('./lib/grid_trading');
     };
 
     let gt = new GridTrading(currentPrice, tradeParam);
+    gt.showProfitPercent();
+    gt.showWallet();
     gt.trade(460);
+    gt.showWallet();
     gt.trade(400);
+    gt.showWallet();
+    gt.showGrids();
     // ...
 })();

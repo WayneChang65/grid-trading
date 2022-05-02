@@ -26,3 +26,18 @@ Run it with node.js.
 ```bash
 node main.js
 ```
+
+## 如何使用本演算法？ (How to us it ?)  
+
+* constructor(currentPrice, tradeParam), 類別建構式，建立一個網格交易單  
+ * currentPrice: 開單的現價  
+ * tradeParam: 網格參數  
+
+* trade(currentPrice), 交易函式，只要把目前現價持續輸入，程式自動判斷是否進行買賣交易  
+ * currentPrice: 現價，持續輸入  
+
+* showProfitPercent(), 顯示網格單的利潤範圍  
+
+* showGrids(), 顯示網格單內容  
+
+* showWallet(), 顯示目前網格單內的a-coin, b-coin 以及利潤狀態 (交易對為 a-coin/b-coin)  
